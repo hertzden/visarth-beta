@@ -3,8 +3,8 @@
     --primary: #044640;
     --secondary: #E93C05;
     --tertiary: #555555;
-    --light: #DFE4FD;
-    --dark: #011A41;
+    --light: #fff4d7;
+    --dark: #f1d896;
 }
 
 .back-to-top {
@@ -68,6 +68,16 @@ h6,
     background-color: #fcc03d;
     border-color: #fdbe36;
 }
+.btn-primary:hover {
+    color: #070708;
+    background-color: #eda70f;
+    border-color: #eda70f;
+}
+.btn-light:hover {
+    color: #000;
+    background-color: #f7e5be;
+    border-color: #c4ac7a;
+}
 
 .btn-square {
     width: 38px;
@@ -98,7 +108,9 @@ h6,
     /* color: #050504 !important */
     color: #044740 !important
 }
-
+.text-light {
+    color: #fff4d7 !important;
+}
 /*** Navbar ***/
 .fixed-top {
     transition: .5s;
@@ -495,7 +507,7 @@ a, .nav-link {
     margin: 0 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid var(--light);
+    border: 1px solid var(--dark);
     border-radius: 30px;
     transition: .5s;
 }
@@ -508,7 +520,7 @@ a, .nav-link {
     top: 6px;
     left: 6px;
     border-radius: 16px;
-    background: var(--light);
+    background: var(--dark);
     transition: .5s;
 }
 
@@ -542,7 +554,7 @@ a, .nav-link {
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--dark);
     letter-spacing: 1px;
     box-shadow: none;
 }
